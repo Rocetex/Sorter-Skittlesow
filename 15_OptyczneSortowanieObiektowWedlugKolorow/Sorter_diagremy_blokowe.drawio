@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" modified="2024-01-18T04:56:21.458Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="gTseo0rJh_Lj9Hl0YQJj" version="22.1.20" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1434" dy="774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="qTHbk2p835YjNaDpV5_O-50" value="Oblicz odległość między punktami" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="380" y="25" width="360" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-50" source="qTHbk2p835YjNaDpV5_O-52" target="qTHbk2p835YjNaDpV5_O-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-52" value="Zadeklaruj zmienną: suma kwadratów" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-50" vertex="1">
+          <mxGeometry x="118" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="qTHbk2p835YjNaDpV5_O-50" source="qTHbk2p835YjNaDpV5_O-53" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="220" />
+              <mxPoint x="280" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-53" value="Oblicz sumę kwadratów i dodaj do wartości zmiennej" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-50" vertex="1">
+          <mxGeometry x="120" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-50" source="qTHbk2p835YjNaDpV5_O-54" target="qTHbk2p835YjNaDpV5_O-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-50" source="qTHbk2p835YjNaDpV5_O-54" target="qTHbk2p835YjNaDpV5_O-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-54" value="Czy obliczono wszystkie sumy " style="rhombus;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-50" vertex="1">
+          <mxGeometry x="115" y="110" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-59" value="Zwróć pierwiastek z sum" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-50" vertex="1">
+          <mxGeometry x="120" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-64" value="Nie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="560" y="193" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-65" value="Tak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="133" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-66" value="Znajdź najbliższy punkt" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="27" y="435" width="360" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="qTHbk2p835YjNaDpV5_O-66" source="qTHbk2p835YjNaDpV5_O-73" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="288" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-73" value="Przepisz odległość obliczoną do zmiennej, zapisz indeks koloru do zmiennej" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-66" vertex="1">
+          <mxGeometry x="227.5" y="235" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-70" value="Zwróć indeks najbliższego koloru" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-66" vertex="1">
+          <mxGeometry x="90" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-77" value="Tak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qTHbk2p835YjNaDpV5_O-66" vertex="1">
+          <mxGeometry x="235" y="380" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-66" source="qTHbk2p835YjNaDpV5_O-67" target="qTHbk2p835YjNaDpV5_O-68" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-67" value="Zadeklaruj zmienne: najmniejszy dystans i indeks najbliższego kolory" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-66" vertex="1">
+          <mxGeometry x="72.5" y="55" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-66" source="qTHbk2p835YjNaDpV5_O-68" target="qTHbk2p835YjNaDpV5_O-71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-66" source="qTHbk2p835YjNaDpV5_O-68" target="qTHbk2p835YjNaDpV5_O-70" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="195" />
+              <mxPoint x="40" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-68" value="Czy sprawdzono wszystkie kolory odniesienia" style="rhombus;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-66" vertex="1">
+          <mxGeometry x="80" y="145" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-66" source="qTHbk2p835YjNaDpV5_O-71" target="qTHbk2p835YjNaDpV5_O-72" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-71" value="&lt;div&gt;Wywołaj: Oblicz odległość&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-66" vertex="1">
+          <mxGeometry x="90" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-66" source="qTHbk2p835YjNaDpV5_O-72" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="287.5" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-72" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;Czy obliczona &lt;br&gt;odległość jest mniejsza niż&amp;nbsp; zapisana najmniejsza?&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-66" vertex="1">
+          <mxGeometry x="65" y="368" width="170" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-75" value="Nie" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qTHbk2p835YjNaDpV5_O-66" vertex="1">
+          <mxGeometry x="154" y="243" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-83" value="Tak" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qTHbk2p835YjNaDpV5_O-66" vertex="1">
+          <mxGeometry x="50" y="163" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-86" value="Znajdź indeks najbliższego koloru" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="416" y="464" width="360" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-86" source="qTHbk2p835YjNaDpV5_O-87" target="qTHbk2p835YjNaDpV5_O-90" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-87" value="Zadeklaruj tablicę stałych punktów odniesienia" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-86" vertex="1">
+          <mxGeometry x="105" y="42" width="150" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-86" source="qTHbk2p835YjNaDpV5_O-88" target="qTHbk2p835YjNaDpV5_O-89" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-88" value="Wywołaj: Znajdź&amp;nbsp; punkt" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-86" vertex="1">
+          <mxGeometry x="105" y="210" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-89" value="Zwróć indeks najbliższego koloru" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-86" vertex="1">
+          <mxGeometry x="105" y="300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qTHbk2p835YjNaDpV5_O-86" source="qTHbk2p835YjNaDpV5_O-90" target="qTHbk2p835YjNaDpV5_O-88" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-90" value="Zadeklaruj tablicę nowy punkt i przypisz&amp;nbsp; wartości koloru" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-86" vertex="1">
+          <mxGeometry x="105" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-99" value="Obsługa przerwania" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="837" y="184" width="799" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5988sZ7aHAGHDKVc47CA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qTHbk2p835YjNaDpV5_O-99" source="qTHbk2p835YjNaDpV5_O-95" target="qTHbk2p835YjNaDpV5_O-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-95" value="Odczytaj i zapisz kolor z czujnika" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-99" vertex="1">
+          <mxGeometry x="142" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5988sZ7aHAGHDKVc47CA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qTHbk2p835YjNaDpV5_O-99" source="qTHbk2p835YjNaDpV5_O-96" target="qTHbk2p835YjNaDpV5_O-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-96" value="Rozpoznaj kolor i odczytaj jego indeks" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-99" vertex="1">
+          <mxGeometry x="283" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5988sZ7aHAGHDKVc47CA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qTHbk2p835YjNaDpV5_O-99" source="qTHbk2p835YjNaDpV5_O-98" target="5988sZ7aHAGHDKVc47CA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qTHbk2p835YjNaDpV5_O-98" value="Wykonaj sortowanie nastawiając sortownik na pozycję" style="rounded=1;whiteSpace=wrap;html=1;" parent="qTHbk2p835YjNaDpV5_O-99" vertex="1">
+          <mxGeometry x="427" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5988sZ7aHAGHDKVc47CA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qTHbk2p835YjNaDpV5_O-99" source="5988sZ7aHAGHDKVc47CA-0" target="qTHbk2p835YjNaDpV5_O-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5988sZ7aHAGHDKVc47CA-0" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Start:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Wystąpienie przerwania&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="qTHbk2p835YjNaDpV5_O-99">
+          <mxGeometry x="14" y="39" width="108" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="5988sZ7aHAGHDKVc47CA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="qTHbk2p835YjNaDpV5_O-99" source="5988sZ7aHAGHDKVc47CA-2" target="5988sZ7aHAGHDKVc47CA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5988sZ7aHAGHDKVc47CA-2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Wypisz parametry koloru (R, G, B, Idx) w konsoli&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="qTHbk2p835YjNaDpV5_O-99">
+          <mxGeometry x="565" y="48" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5988sZ7aHAGHDKVc47CA-4" value="Koniec" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="qTHbk2p835YjNaDpV5_O-99">
+          <mxGeometry x="703" y="50.5" width="82" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
