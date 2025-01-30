@@ -6,3 +6,4 @@ Projekt został stworzony jako projekt grupowy. Pełny opis urządzenia, wraz z 
 
 ## Prezentacja układu:
 ![image](https://github.com/user-attachments/assets/0c16d26a-629b-4ae7-9d60-7832a236db8b)
+![image](https://github.com/user-attachments/assets/bf6d49f9-2bf5-4b62-a203-c5a28220943d)
